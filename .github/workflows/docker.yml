@@ -2,11 +2,11 @@ name: Build Images
 
 on:
   push:
-    branches: master
+    branches: [master, na2na]
   pull_request:
-      paths:
-        - docker-compose.yml
-        - services
+    paths:
+      - docker-compose.yml
+      - services
 
 jobs:
   build:
