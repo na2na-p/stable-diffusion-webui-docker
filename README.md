@@ -6,6 +6,15 @@ This repository provides multiple UIs for you to play around with stable diffusi
 
 ## Features
 
+## How to use?
+
+```
+git clone https://github.com/AbdBarho/stable-diffusion-webui-docker.git
+cd stable-diffusion-webui-docker
+docker compose --profile download up --build
+docker compose --profile auto-cpu up --build # choose the profile you want
+```
+
 ### AUTOMATIC1111
 
 [AUTOMATIC1111's fork](https://github.com/AUTOMATIC1111/stable-diffusion-webui) is imho the most feature rich yet elegant UI:
@@ -40,11 +49,10 @@ Screenshots:
 | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | ![](https://user-images.githubusercontent.com/24505302/189541298-f902b021-a1eb-4e4b-b2eb-b6a696a8ec80.jpg) | ![](https://user-images.githubusercontent.com/24505302/189541295-7d7f2162-2189-4e0a-abbd-703f4779e1cd.jpg) | ![](https://user-images.githubusercontent.com/24505302/189541294-aa7f7735-a973-4e17-ada0-1fe3acbb1772.jpg) |
 
-
-
 ### lstein (InvokeAI)
 
 [lstein's fork](https://github.com/invoke-ai/InvokeAI) is one of the earliest with a wonderful WebUI.
+
 - Text to image, with many samplers
 - Image to image
 - 4GB GPU support
@@ -82,3 +90,7 @@ Special thanks to everyone behind these awesome projects, without them, none of 
 - [hlky/sd-enable-textual-inversion](https://github.com/hlky/sd-enable-textual-inversion)
 - [devilismyfriend/latent-diffusion](https://github.com/devilismyfriend/latent-diffusion)
 - [Hafiidz/latent-diffusion](https://github.com/Hafiidz/latent-diffusion)
+
+```
+
+```
